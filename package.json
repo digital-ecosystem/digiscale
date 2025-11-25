@@ -1,0 +1,35 @@
+{
+  "name": "digiscale",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/digital-ecosystem/digiscale#readme",
+  "bugs": {
+    "url": "https://github.com/digital-ecosystem/digiscale/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digital-ecosystem/digiscale.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^7.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.1",
+    "prisma": "^7.0.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  }
+}
